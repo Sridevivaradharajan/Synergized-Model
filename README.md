@@ -23,7 +23,7 @@ This project integrates two machine learning models for predicting **Sepsis** (f
 3. Run the Streamlit App streamlit run autism_app.py
 
 ## Models Used
-Sepsis Prediction
+🔹Sepsis Prediction
 
 Model: XGBoost Classifier (XGBClassifier)
 
@@ -35,7 +35,7 @@ Code Adapted From: Lakshya Soni’s Kaggle Notebook
 
 Dataset: Prediction of Sepsis Dataset
 
-Jaundice Detection
+🔹Jaundice Detection
 
 Model: Convolutional Neural Network (CNN)
 
