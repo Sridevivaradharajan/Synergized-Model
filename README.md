@@ -24,6 +24,7 @@ This project integrates two machine learning models for predicting **Sepsis** (f
 
 ## Models Used
 🔹 Sepsis Prediction
+
 Model: XGBoost Classifier (XGBClassifier)
 
 Input: Clinical tabular data (e.g., HR, O2Sat, MAP, Resp, etc.)
@@ -35,6 +36,7 @@ Source Code Adapted From:Lakshya Soni’s Kaggle Notebook
 Dataset:Prediction of Sepsis Dataset
 
 🔹 Jaundice Detection
+
 Model: Convolutional Neural Network (CNN)
 
 Input: Eye images (normal vs jaundiced)
