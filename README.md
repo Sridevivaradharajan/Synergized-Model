@@ -19,3 +19,35 @@ This project integrates two machine learning models for predicting **Sepsis** (f
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
+2. Install Required Libraries pip install -r requirements.txt
+3. Run the Streamlit App streamlit run autism_app.py
+
+## Models Used
+🔹 Sepsis Prediction
+Model: XGBoost Classifier (XGBClassifier)
+Input: Clinical tabular data (e.g., HR, O2Sat, MAP, Resp, etc.)
+Output: Probability of Sepsis (Binary Classification)
+Source Code Adapted From:Lakshya Soni’s Kaggle Notebook
+Dataset:Prediction of Sepsis Dataset
+
+🔹 Jaundice Detection
+Model: Convolutional Neural Network (CNN)
+Input: Eye images (normal vs jaundiced)
+Output: Classification as Normal or Jaundiced
+Approach Adapted From:Nirmal Gaud’s Notebook
+Dataset: Eye images preprocessed from the above source
+
+## Web Interface
+The unified Streamlit app allows:
+-Uploading a user input for Sepsis prediction
+-Uploading an image for Jaundice detection
+-Visualizing prediction outputs with confidence levels
+-Educational demonstration of healthcare AI
+
+## Acknowledgements
+-Sepsis prediction logic and code were adapted from:Lakshya Soni’s Kaggle Notebook
+-Sepsis dataset used:Prediction of Sepsis Dataset
+-Jaundice classification method and dataset adapted from:Nirmal Gaud’s Notebook
+-Streamlit Web Interface adapted from publicly available open-source templates. The original author is unknown. This was used strictly for academic and demonstration purposes.
+
+
