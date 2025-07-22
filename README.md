@@ -39,7 +39,7 @@ Dataset: Prediction of Sepsis Dataset
 
 🔹Jaundice Detection
 
-Model: Convolutional Neural Network (CNN)
+Model: Convolutional Neural Network (CNN) based on Inception architecture
 
 Input: Eye images (categorized as Normal vs Jaundiced)
 
@@ -71,7 +71,7 @@ The unified Streamlit app allows:
 
 -Jaundice classification method adapted from:Nirmal Gaud’s Notebook
 
-**Note:** The machine learning models for both sepsis and jaundice were trained independently and are original to this project.
+**Note:** The Artificial Intelligence models for both sepsis and jaundice were trained independently and are original to this project.
 The Streamlit web interface was designed and implemented as a unified platform to demonstrate both models interactively.
 No direct code from the above sources was reused without modification. Instead, concepts and logic were adapted and extended.
 
