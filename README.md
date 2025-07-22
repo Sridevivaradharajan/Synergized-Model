@@ -22,6 +22,8 @@ This project integrates two machine learning models for predicting **Sepsis** (f
 2. Install Required Libraries pip install -r requirements.txt
 3. Run the Streamlit App streamlit run autism_app.py
 
+---
+
 ## Models Used
 🔹Sepsis Prediction
 
@@ -47,6 +49,8 @@ Approach Adapted From: Nirmal Gaud’s Notebook
 
 Dataset: Eye images were preprocessed and adapted based on the method in the above source
 
+---
+
 ## Web Interface
 The unified Streamlit app allows:
 
@@ -57,6 +61,8 @@ The unified Streamlit app allows:
 -Visualizing prediction outputs with confidence levels
 
 -Educational demonstration of healthcare AI
+
+---
 
 ## Acknowledgements
 -Sepsis prediction logic and code were adapted from:Lakshya Soni’s Kaggle Notebook
