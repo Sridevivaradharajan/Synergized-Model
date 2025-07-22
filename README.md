@@ -39,15 +39,22 @@ Dataset: Eye images preprocessed from the above source
 
 ## Web Interface
 The unified Streamlit app allows:
+
 -Uploading a user input for Sepsis prediction
+
 -Uploading an image for Jaundice detection
+
 -Visualizing prediction outputs with confidence levels
+
 -Educational demonstration of healthcare AI
 
 ## Acknowledgements
 -Sepsis prediction logic and code were adapted from:Lakshya Soni’s Kaggle Notebook
--Sepsis dataset used:Prediction of Sepsis Dataset
--Jaundice classification method and dataset adapted from:Nirmal Gaud’s Notebook
--Streamlit Web Interface adapted from publicly available open-source templates. The original author is unknown. This was used strictly for academic and demonstration purposes.
 
+-Sepsis dataset used:Prediction of Sepsis Dataset
+
+-Jaundice classification method adapted from:Nirmal Gaud’s Notebook
+**Note:** The machine learning models for both sepsis and jaundice were trained independently and are original to this project.
+The Streamlit web interface was designed and implemented as a unified platform to demonstrate both models interactively.
+No direct code from the above sources was reused without modification. Instead, concepts and logic were adapted and extended.
 
