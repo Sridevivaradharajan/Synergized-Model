@@ -7,7 +7,7 @@ from xgboost import XGBClassifier
 import joblib
 
 # Load sample preprocessed data
-df_train_impute = pd.read_csv("../sample_data/sepsis_preprocessed.csv")
+df_train_impute = pd.read_csv("sepsis_preprocessed.csv")
 
 # Define features and label
 X = df_train_impute.drop('SepsisLabel', axis=1)
@@ -22,7 +22,7 @@ X_test.columns = X_test.columns.astype(str)
 X_train = X_train.loc[:, ~X_train.columns.str.contains('^Unnamed')]
 X_test = X_test.loc[:, ~X_test.columns.str.contains('^Unnamed')]
 
-# Your original XGBoost model setup
+# Your XGBoost model setup
 model = XGBClassifier(n_estimators=500, learning_rate=0.05, max_depth=10, random_state=0)
 model.fit(X_train, y_train)
 
