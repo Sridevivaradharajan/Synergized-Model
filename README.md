@@ -6,10 +6,10 @@ This project integrates two machine learning models for predicting **Sepsis** (f
 
 ## Project Structure
 
-- `sepsis_model/` — Code and trained model for sepsis prediction using tabular data.
-- `jaundice_model/` — Code and trained CNN model for jaundice detection from images.
-- `streamlit_app/` — Web interface allowing users to interact with both models.
-- `data/` — Sample data files for testing the models.
+- `xgboost_sepsis_model/` — Code and trained model for sepsis prediction using tabular data.
+- `keras_model/` — Code and trained CNN model for jaundice detection from images.
+- `app/` — Web interface allowing users to interact with both models.
+- `Dataset/` — Sample data files for testing the models.
 - `requirements.txt` — All necessary Python packages.
 
 ---
@@ -17,8 +17,8 @@ This project integrates two machine learning models for predicting **Sepsis** (f
 ## How to Run
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+git clone https://github.com/Sridevivaradharajan/Synergized-Model.git
+cd Synergized-Model
 2. Install Required Libraries pip install -r requirements.txt
 3. Run the Streamlit App streamlit run autism_app.py
 
@@ -45,9 +45,11 @@ Input: Eye images (categorized as Normal vs Jaundiced)
 
 Output: Classification — Normal or Jaundiced
 
-Approach Adapted From: Nirmal Gaud’s Notebook
+Code: Fully implemented by me. The CNN model architecture, training logic, and class balancing methods were built from scratch using Keras and TensorFlow.
 
-Dataset: Eye images were preprocessed and adapted based on the method in the above source
+Dataset: A sample image per class is included for demonstration. The full dataset remains undisclosed.
+
+Note: The full training code is not publicly shared here to maintain code originality and prevent unauthorized use.
 
 ---
 
@@ -69,9 +71,7 @@ The unified Streamlit app allows:
 
 -Sepsis dataset used:Prediction of Sepsis Dataset
 
--Jaundice classification method adapted from:Nirmal Gaud’s Notebook
 
-**Note:** The Artificial Intelligence models for both sepsis and jaundice were trained independently and are original to this project.
-The Streamlit web interface was designed and implemented as a unified platform to demonstrate both models interactively.
+**Note:** To maintain the originality and integrity of the work, the complete jaundice training code and dataset have not been disclosed in full. Only a minimal setup is shared for demonstration purposes.The Artificial Intelligence models for both sepsis and jaundice were trained independently and are original to this project.The Streamlit web interface was designed and implemented as a unified platform to demonstrate both models interactively.
 No direct code from the above sources was reused without modification. Instead, concepts and logic were adapted and extended.
 
