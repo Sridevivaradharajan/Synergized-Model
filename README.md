@@ -20,7 +20,7 @@ This project integrates two machine learning models for predicting **Sepsis** (f
    git clone https://github.com/Sridevivaradharajan/Synergized-Model.git
    cd Synergized-Model
 2. Install Required Libraries pip install -r requirements.txt
-3. Run the Streamlit App streamlit run autism_app.py
+3. Run the Streamlit App streamlit run app.py
 
 ---
 
