@@ -74,15 +74,3 @@ The unified Streamlit app allows:
 
 **Note:** To maintain the originality and integrity of the work, the complete jaundice training code and dataset have not been disclosed in full. Only a minimal setup is shared for demonstration purposes.The Artificial Intelligence models for both sepsis and jaundice were trained independently and are original to this project.The Streamlit web interface was designed and implemented as a unified platform to demonstrate both models interactively.
 No direct code from the above sources was reused without modification. Instead, concepts and logic were adapted and extended.
-
----
-
-## License
-
-This project is proprietary and all rights are reserved by the author.
-
-You may not copy, modify, reuse, distribute, or incorporate any part of this project into other works without explicit written permission from the author.
-
-For inquiries, visit: https://github.com/Sridevivaradharajan
-
-
